@@ -1,0 +1,24 @@
+{
+  "name": "site-uptime-monitor",
+  "version": "1.0.0",
+  "description": "Telegram bot for monitoring website uptime with instant alerts",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
+    "node-cron": "^3.0.3",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
